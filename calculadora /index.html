@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculando</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -17,11 +18,10 @@
         <input type="number" name="n1" id="n1"> +
         <input type="number" name="n2" id="n2">
 
-        <button id="btnSomar" onclick="somar()">Somar</button>
+        <button id="btnSomar">Somar</button>
+        <button id="limparSoma">Limpar</button>
 
-        <button id="limparSoma" onclick="limparSoma()">Limpar</button>
-
-        <div id="resSoma">Resultado: </div>
+        <div id="resSoma">Resultado:</div>
     </section>
 
     <section class="calculadora">
@@ -29,16 +29,15 @@
         <input type="number" name="n3" id="n3"> -
         <input type="number" name="n4" id="n4">
 
-        <button id="btnSubtrair" onclick="subtrair()">Subtrair</button>
+        <button id="btnSubtrair">Subtrair</button>
+        <button id="limparSub">Limpar</button>
 
-        <button id="limparSub" onclick="limparSub()">Limpar</button>
-
-        <div id="resSub">Resultado: </div>
+        <div id="resSub">Resultado:</div>
     </section>
 
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
-
 </body>
 
 </html>
